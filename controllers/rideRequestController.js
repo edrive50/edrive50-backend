@@ -388,8 +388,7 @@ exports.requestAcceptRejectTwo = (req, res) => {
             console.log("GONE");
             return res.send({
                 message: "The request was declined. Ride status updated to [cancelled]",
-                accept: false,
-                name: driver.name
+                accept: false
             });
         });
         // return res.json(
